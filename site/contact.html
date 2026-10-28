@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Contact & Location | Master Gym</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css"></head>
+<body>
+<header class="topbar">
+  <a class="brand" href="index.html">MASTER GYM</a>
+  <nav class="glass-nav" id="glassNav" aria-label="Main"><a href="index.html" data-nav="home">Home</a><a href="about.html" data-nav="about">About Us</a><a href="facilities.html" data-nav="facilities">Facilities</a><a href="programs.html" data-nav="programs">Programs</a><a href="plans.html" data-nav="plans">Plans</a><a href="contact.html" class="active" aria-current="page" data-nav="contact">Contact</a></nav>
+  <a class="top-cta" href="plans.html">Join now</a>
+  <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="glassNav">Menu</button>
+</header>
+<main>
+<header class="wrap page-head">
+  <h1>Contact &amp; Location</h1>
+  <p>Send us a message or come by for a look around.</p>
+</header>
+<section class="wrap section">
+  <div class="contact-grid">
+    <div>
+      <form id="enquiry">
+        <label>Name<input name="name" required autocomplete="name"></label>
+        <label>Phone<input name="phone" type="tel" required autocomplete="tel"></label>
+        <label>I am interested in
+          <select name="interest"><option>Membership plans</option><option>Strength Training</option><option>Fat Loss &amp; Cardio</option><option>Boxing &amp; Conditioning</option><option>Personal Training</option></select></label>
+        <label>Message<textarea name="message"></textarea></label>
+        <div><button class="btn" type="submit">Send on WhatsApp</button></div>
+        <p class="fine" style="margin-top:0">Your message opens in WhatsApp and goes to 094913 47496.</p>
+      </form>
+      <div class="thanks" id="thanks">Opening WhatsApp with your message. If it did not open, <a id="waLink" href="https://wa.me/919491347496" target="_blank" rel="noopener" style="color:var(--signal);font-weight:700">tap here to send it on WhatsApp</a>.</div>
+      <div class="thanks" id="waHelp">
+        <strong>WhatsApp cannot open inside this preview.</strong>
+        <p style="margin:8px 0 14px;color:var(--steel)">Copy your message and send it to <a href="tel:09491347496" style="color:var(--signal)">094913 47496</a> on WhatsApp. On the live website this opens WhatsApp directly.</p>
+        <textarea id="waText" rows="5" readonly aria-label="Your message"></textarea>
+        <div class="actions" style="justify-content:flex-start;margin-top:14px"><button type="button" class="btn" id="waCopy">Copy message</button><a class="btn ghost" id="waOpen" href="https://wa.me/919491347496" target="_blank" rel="noopener noreferrer">Try opening WhatsApp</a></div>
+      </div>
+    </div>
+    <div class="info">
+      <dl>
+        <dt>Address</dt><dd>Gandi Maisamma, Hyderabad, Telangana 500043</dd>
+        <dt>Phone</dt><dd><a href="tel:09491347496" style="color:var(--signal)">094913 47496</a></dd><dt>Rating</dt><dd><div class="rating"><span class="stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span><span><strong>Rated 4.9/5</strong> by 426 reviewers</span></div></dd>
+        <dt>Opening hours</dt><dd>Morning 5:00 AM to 11:00 AM<br>Evening 5:00 PM to 10:00 PM</dd>
+      </dl>
+      <a class="map-img" href="https://maps.app.goo.gl/pt8d3iBhdpjJLEiM9" target="_blank" rel="noopener" aria-label="Open Master Gym in Google Maps"><img src="images/map.jpg" alt="Google Map showing Master Gym on Medak Road, Gandi Maisamma"></a>
+      <div class="actions" style="margin-top:20px"><a class="btn" href="tel:09491347496">Call Now</a><a class="btn ghost wa-btn" href="https://wa.me/919491347496" target="_blank" rel="noopener">WhatsApp</a><a class="btn ghost" href="https://maps.app.goo.gl/pt8d3iBhdpjJLEiM9" target="_blank" rel="noopener">Get Directions</a></div>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="footer"><div class="wrap"><span>&copy; Master Gym &middot; Training since 2017 &middot; Rated 4.9/5 by 426 reviewers</span><nav><a href="index.html">Home</a><a href="about.html">About Us</a><a href="facilities.html">Facilities</a><a href="programs.html">Programs</a><a href="plans.html">Plans</a><a href="contact.html">Contact</a></nav></div></footer>
+<script src="site.js"></script>
+</body></html>
